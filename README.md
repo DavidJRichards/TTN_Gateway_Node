@@ -43,7 +43,7 @@
     <li>
 	<a href="#usage">Usage</a></li>
 	<ul>
-		<li><a href=”#Gateway with in Radius”>Gateway with in Radius</a/li>
+		<li><a href="#Gateway within Radius"> Gateway within Radius </a/li>
 	</ul>
 	</li> 
     <li><a href="#roadmap">Roadmap</a></li>
@@ -130,7 +130,7 @@ This is an example of how to list things you need to use the software and how to
 
 There are three user interfacing areas, Gateway with in Radius, Radius around Gateway and Plot New Node.
 
-### Gateway with in Radius
+### Gateway within Radius
 
 Here the user have three fields to complete, Latitude dec, Longitude dec and Distance KM, once these are completed the ‘Get’ is used. This calls on the TTN Radius API to get all the Gateways with in the specified radius from the coordinates supplied. The Latitude dec, Longitude dec are in decimal format and Distance KM is in kilometres.
 
