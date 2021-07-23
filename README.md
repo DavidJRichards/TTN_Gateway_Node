@@ -46,6 +46,8 @@
         <li><a href="#gateway-within-radius">Gateway within Radius</a></li>
         <li><a href="#radius-around-gateway">Radius around Gateway</a></li>
         <li><a href="#plot-new-node">Plot New Node</a></li>
+        <li><a href="#demo">Demo</a></li>
+
       </ul>
     </li> 
     <li><a href="#roadmap">Roadmap</a></li>
@@ -154,6 +156,7 @@ You simply complete the coordinates and the point will be plotted on the map. If
 
 The delete the point from the map you press the DELETE button
 
+### Demo
  
 <img src="images/gatewayRadius.gif" alt="Demo" width="600" height="300">
 
