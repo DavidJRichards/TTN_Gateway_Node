@@ -13,7 +13,7 @@
     <a href="https://github.com/JohanScheepers/TTN_Gateway_Node"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/JohanScheepers/TTN_Gateway_Node">View Demo</a>
+    <a href="https://github.com/JohanScheepers/TTN_Gateway_Node/blob/main/images/gatewayRadius.gif">View Demo</a>
     ·
     <a href="https://github.com/JohanScheepers/TTN_Gateway_Node/issues">Report Bug</a>
     ·
@@ -146,7 +146,7 @@ Here we can set four different radiuses plotted around the gateways, this in in 
 
 The clear these radiuses, either select CLEAR RADIUS or change the field value to 0.
 
-###Plot New Node
+### Plot New Node
 
 Here we set the Latitude dec, Longitude dec and the Distance KM. The fields Latitude dec, Longitude dec are in in decimal format and Distance KM are in kilometres.
 
