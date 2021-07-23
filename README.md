@@ -43,7 +43,7 @@
     <li>
 	<a href="#usage">Usage</a>
 	<ul>
-        <li><a href="#gateway">Gateway within Radius</a></li>
+        <li><a href="#Gateway within Radius">Gateway within Radius</a></li>
         <li><a href="#radius around gateway">Radius around Gateway</a></li>
         <li><a href="#plot new node">Plot New Node</a></li>
       </ul>
