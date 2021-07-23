@@ -129,11 +129,11 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-There are three user interfacing areas, Gateway with in Radius, Radius around Gateway and Plot New Node.
+There are three user interfacing areas, Gateway within Radius, Radius around Gateway and Plot New Node.
 
 ### Gateway within Radius
 
-Here the user have three fields to complete, Latitude dec, Longitude dec and Distance KM, once these are completed the ‘Get’ is used. This calls on the TTN Radius API to get all the Gateways with in the specified radius from the coordinates supplied. The Latitude dec, Longitude dec are in decimal format and Distance KM is in kilometres.
+Here the user have three fields to complete, Latitude dec, Longitude dec and Distance KM, once these are completed the ‘Get’ is used. This calls on the TTN Radius API to get all the Gateways within the specified radius from the coordinates supplied. The Latitude dec, Longitude dec are in decimal format and Distance KM is in kilometres.
 
 This in turn calls on the TTN Gateway API that returns data more specific to the gateway. This triggers a flow that map the gateways on a map.
 
