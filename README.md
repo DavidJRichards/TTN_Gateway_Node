@@ -41,7 +41,7 @@
       </ul>
     </li>
     <li>
-	<a href="#usage">Usage</a></li>
+	<a href="#usage">Usage</a>
 	<ul>
         <li><a href="#gateway within radius">Gateway within Radius</a></li>
         <li><a href="#radius around gateway">Radius around Gateway</a></li>
