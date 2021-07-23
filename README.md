@@ -43,9 +43,9 @@
     <li>
 	<a href="#usage">Usage</a></li>
 	<ul>
-        <li><a href="#gatewaywithinradius">Gateway within Radius</a></li>
-	  <li><a href="#Radius around Gateway">Radius around Gateway</a></li>
-	  <li><a href="#Plot New Node">Plot New Node</a></li>
+        <li><a href="#gateway within radius">Gateway within Radius</a></li>
+        <li><a href="#radius around gateway">Radius around Gateway</a></li>
+        <li><a href="#plot new node">Plot New Node</a></li>
       </ul>
     </li> 
     <li><a href="#roadmap">Roadmap</a></li>
