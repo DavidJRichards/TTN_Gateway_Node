@@ -43,9 +43,9 @@
     <li>
 	<a href="#usage">Usage</a>
 	<ul>
-        <li><a href="#gateway within radius">Gateway within Radius</a></li>
-        <li><a href="#radius around gateway">Radius around Gateway</a></li>
-        <li><a href="#plot new node">Plot New Node</a></li>
+        <li><a href="#radius">Radius</a></li>
+        <li><a href="#gateway">Gateway</a></li>
+        <li><a href="#node">Node</a></li>
       </ul>
     </li> 
     <li><a href="#roadmap">Roadmap</a></li>
@@ -130,7 +130,7 @@ This is an example of how to list things you need to use the software and how to
 
 There are three user interfacing areas, Gateway with in Radius, Radius around Gateway and Plot New Node.
 
-### Gateway within Radius
+### Radius
 
 Here the user have three fields to complete, Latitude dec, Longitude dec and Distance KM, once these are completed the ‘Get’ is used. This calls on the TTN Radius API to get all the Gateways with in the specified radius from the coordinates supplied. The Latitude dec, Longitude dec are in decimal format and Distance KM is in kilometres.
 
@@ -140,13 +140,13 @@ There are several fields of data about the gateway, we are only going  to displa
 
 There are two tables, Gateway Status Offline and Gateway Status Online. These tables display all the offline and online gateways, each field is selectable. If the field is selected the map zooms to that specific gateway.
 
-### Radius around Gateway
+### Gateway
 
 Here we can set four different radiuses plotted around the gateways, this in in kilometres. Complete the distance and the radius will be plotted on the map.
 
 The clear these radiuses, either select CLEAR RADIUS or change the field value to 0.
 
-### Plot New Node
+### Node
 
 Here we set the Latitude dec, Longitude dec and the Distance KM. The fields Latitude dec, Longitude dec are in in decimal format and Distance KM are in kilometres.
 
