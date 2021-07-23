@@ -47,7 +47,6 @@
         <li><a href="#radius-around-gateway">Radius around Gateway</a></li>
         <li><a href="#plot-new-node">Plot New Node</a></li>
         <li><a href="#demo">Demo</a></li>
-
       </ul>
     </li> 
     <li><a href="#roadmap">Roadmap</a></li>
