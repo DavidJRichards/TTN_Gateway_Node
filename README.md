@@ -1,4 +1,4 @@
-﻿<!-- PROJECT LOGO -->
+<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/JohanScheepers/TTN_Gateway_Node">
@@ -46,6 +46,8 @@
         <li><a href="#gateway-within-radius">Gateway within Radius</a></li>
         <li><a href="#radius-around-gateway">Radius around Gateway</a></li>
         <li><a href="#plot-new-node">Plot New Node</a></li>
+	   <li><a href="#airtime-calculator-for-loRaWAN">Airtime calculator for LoRaWAN</a></li>
+	   <li><a href="#the-things-network-status-page">The Things Network Status Page</a></li>
         <li><a href="#demo">Demo</a></li>
         <li><a href="#flow">Flow</a></li>
       </ul>
@@ -137,7 +139,7 @@ Here the user have three fields to complete, Latitude dec, Longitude dec and Dis
 
 This in turn calls on the TTN Gateway API that returns data more specific to the gateway. This triggers a flow that map the gateways on a map.
 
-There are several fields of data about the gateway, we are only going  to display the following fields in tables, name, eui, latitude, longitude, rxRate, txRate, updateAt and online.
+There are several fields of data about the gateway, we are only going  to display the following fields in tables, 'name', 'eui', 'latitude', 'longitude', 'rxRate', 'txRate', 'updateAt' and 'onlin'e.
 
 There are two tables, Gateway Status Offline and Gateway Status Online. These tables display all the offline and online gateways, each field is selectable. If the field is selected the map zooms to that specific gateway.
 
@@ -153,7 +155,17 @@ Here we set the Latitude dec, Longitude dec and the Distance KM. The fields Lati
 
 You simply complete the coordinates and the point will be plotted on the map. If you require a radius drawn around the point you complete the Distance KM.
 
-The delete the point from the map you press the DELETE button
+This invokes a flow that generates the table "Distance Node to Gateway". In this table we are displaying attributes of the gateway, like 'name', 'eui', 'latitude', 'longitude", there are two other fields of interest here. 'distance KM' and 'azimuth' this is the distance from the node to the gateway and the azimuth from the node to the gateway.
+
+The delete the point from the map you press the DELETE button.
+
+### Airtime calculator for LoRaWAN
+
+This is a call to the website of arjanvanb - 'https://avbentem.github.io/airtime-calculator/ttn/eu868/10' this is a calculator to assist you to see the relationship between your payload length and SF value have on the airtime of your uplink or downlink.
+
+### The Things Network Status Page
+
+This is a call the The Things Network Status Page, showing some of the gateway statistic and other useful information.
 
 ### Demo
  
