@@ -8,7 +8,7 @@
   <h3 align="center">TTN Gateway Radius and New Node</h3>
 
   <p align="center">
-    Project is aimed to use the TTN API to plot gateways and location of potencial new node on map
+    Project is aimed to use the TTN API to plot gateways and location of potential new node on map
     <br />
     <a href="https://github.com/JohanScheepers/TTN_Gateway_Node"><strong>Explore the docs »</strong></a>
     <br />
